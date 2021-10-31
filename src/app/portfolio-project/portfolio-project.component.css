@@ -1,0 +1,267 @@
+.carousel{
+  padding-bottom: 80px;
+  width: 100%;
+}
+.carousel-indicators{
+  align-self:center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-indicators button {
+  border-radius: 50%;
+  width: 16px;
+  height: 10px;
+  color: #fff2f2;
+  margin-right: 50px;
+  background-color: #ed1c24 ;
+}
+.carousel-indicators i {
+  font-size: 15px;
+  font-weight: 300px;
+  margin: 16px;
+color: #ed1c24 ;
+}
+.carousel-indicators.fas {
+    width: 50%;
+}
+
+.coursel-img img {
+width: 80%;
+padding-left: 10px;
+justify-content: center;
+margin:10px;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+.coursel-img img{
+width: 150%;
+margin-left: auto;
+margin-right: auto;
+}
+}
+
+.carousel-inner{
+margin-left: auto;
+margin-right: auto;
+width:auto;
+display: inline;
+text-align: center;
+
+}
+
+.carousel-indicators {
+width: 15%;
+margin-left: auto;
+margin-right: auto;
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+.carousel-indicators {
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+}
+}
+.carousel-indicators li {
+border-radius: 50%;
+width: 16px;
+height: 16px;
+color: #fff2f2;
+margin: 5px;
+background-color: #ed1c24 ;
+}
+.carousel-control-next span i{
+color: red;
+
+}
+.carousel-control-prev span i{
+color: red;
+}
+#path177 {
+position: absolute;
+}
+
+#path178 {
+position: absolute;
+object-fit: contain;
+
+}
+
+#path1163{
+width: 75%;
+position: absolute;
+padding-left: 100px;
+}
+
+
+
+.coursel-col.col{
+width: 100px;
+}
+.coursel-col col img{
+width: 100%;
+}
+
+
+
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+.portfolio ,#grp-1843{
+display: none;
+}
+}
+
+#grp-1843{
+width: 80%;
+height: 400px;
+margin:0px 0px 0px 120px;
+position: absolute;
+z-index: -1;
+}
+.carousel-item .row{
+margin: 10px 0px 10px 0px;
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+.coursel-col{
+width: 100%;
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+}
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+.portfolio-img img, .span-section img{
+width: 100%;
+}
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+.portfolio-img, .span-section{
+text-align: center;
+box-sizing: border-box;
+overflow:hidden;
+}
+}
+@media only screen 
+and (min-device-width : 1366px) 
+and (min-device-width : 768px) 
+and (min-device-width : 1024px){
+.portfolio-view-more{
+display: none;
+}
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+.portfolio-view-more .col-md-12 ,.span-section .col-md-12{
+margin: 20px 0px 20px 0px;
+
+}
+}
+
+.view-more{
+text-align: center;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+.view-more .btn{
+font-size: 17px;
+width: 200px;
+margin: 0px 0px 30px 0px;
+padding: 10px;
+border-radius: 2px;
+box-shadow: 0 0.5px 10px 0 rgba(237, 28, 36, 0.19);
+background-color: #ed1c24;
+font-weight: 400;
+text-align: center;
+color: #ffffff;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.17;
+letter-spacing: normal;
+}
+}
+
+/* .slide-up {
+right: -300px;
+width: auto;
+height: auto;
+animation-timing-function: ease-out;
+-webkit-animation: slide 0.5s forwards;
+-webkit-animation-delay: 0.2s;
+animation: slide 0.5s forwards;
+animation-delay: 2s;
+}
+#div4 {animation-timing-function: ease-out;}
+@-webkit-keyframes slide {
+100% { right: 0; }
+}
+@keyframes slide {
+100% { right: 0; }
+} */
+
+.slide-up {
+width: auto;
+height: auto;
+position: relative;
+animation: mymove 3s alternate;
+}
+
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+
+@keyframes mymove {
+from {right: 300px;}
+to {right: 0px;}
+}
+
+@media only screen and (min-device-width: 1024px) 
+and (max-device-width: 1366px) 
+and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait)
+{
+    .portfolio-view-more{
+      display: none;
+    }
+    #grp-1843{
+      width: 70%;
+      height: 350px;
+      margin:0px 0px 0px 120px;
+      position: absolute;
+      z-index: -1;
+      }
+  }
+
+
+  @media screen and (min-width: 992px) {
+    .portfolio-view-more{
+      display: none;
+    }
+  }

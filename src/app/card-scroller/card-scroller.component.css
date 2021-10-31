@@ -1,0 +1,217 @@
+ .card-sec{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow:auto
+}
+h1, h2,h3,h4,p{
+  font-family: 'Poppins', sans-serif!important;
+}
+.card-white{
+    width:100%;
+display: block;
+flex-wrap: wrap;
+    flex: 0 0 auto;
+    padding:0px 10px 35px 0px;
+    box-shadow: 0.5px 0.5px 10px 0.5px rgba(242, 62, 54, 0.2);
+    border:none;
+    text-align: left;
+    justify-content: center;
+    background: transparent;
+        border-radius: 10px 10px 10px 10px;
+    height: auto;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+  .card-white{
+    width:auto;
+  margin: 10px 20px 5px 10px;
+  padding:10px 20px 30px 20px;
+}}
+.col-auto {
+    padding: 0px;
+justify-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px 5px 10px 5px ;
+ 
+}
+.col-auto img{
+    width:120px;
+    padding: 15px 0px 0px 20px;
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px)
+{
+  .col-auto{
+    width:auto;
+  }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+  .col-auto img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    padding: 5px 5px 5px 5px;
+}
+}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+    .card{
+        width:auto;
+        text-align: left;
+    }
+}
+
+.card-title {
+    width: 100%;
+    float: left;
+    margin-left: -10px;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+    .card-title{
+        width: 100%;
+    }
+}
+.card-title h3{
+    width: 40px;
+    font-size: 20px;
+    height: 40px;
+    padding: 5px 0px 0px 0px;
+    align-items: center;
+    color:crimson;
+    border-radius: 50%;
+    margin: 17px 0px 0px -80px ;
+    background-color: #fff2f2;;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ed1c24;
+
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+  .card-title{
+    text-align: center;
+  }
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+  .card-title h3{
+    font-size: 20px;
+  }
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+  .card-block p{
+    font-size: 2px;
+    width: auto;
+    padding: 0px 0px 0px 0px;
+  }
+}
+.card-block p{
+    font-size: 15px;
+padding: 10px 0px 0px 0px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.46;
+    letter-spacing: normal;
+ grid-column: 3;
+    color: #000000;
+}
+
+.card-2{
+    box-shadow: 0.5px 0.5px 10px 0.5px rgba(242, 62, 54, 0.2);
+background: transparent;
+  border:none;
+  z-index: -1;
+}
+
+.left-side-img1 img{
+  width: 100px;
+  margin-left: -60px;
+}
+.right-side-img-1 img{
+  width: 100px;
+  z-index: -1;
+  position: absolute;
+margin-top: -70px;
+margin-left: -100px;
+} 
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+  .right-side-img-1 img ,.left-side-img1 img{
+    display: none;
+  }
+} 
+#box {
+  overflow-y: visible;
+  overflow-x: auto;
+  white-space: nowrap;
+  vertical-align: text-top;
+  margin: 0;
+  padding: 0px 0px 40px 0px;
+  clear: both;
+  border-spacing: 5px;
+}
+
+#box::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#box {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
+.item {
+  display: table-cell;
+  min-width: 450px;
+  width: 240px;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 5px;
+  white-space: normal;
+  line-height: 1.6;
+  vertical-align: top;
+  text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  .card-sec{
+  display: none;
+  }
+}

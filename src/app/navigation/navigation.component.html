@@ -1,0 +1,124 @@
+
+
+<div class="container-fluid navigationbar" id="header">
+  <div class="row">
+    <nav class="navbar navbar-expand-lg navbar-light " >
+      <a class="navbar-brand" href="#">
+        <div class="logo"><img src="assets\Image\logonew@2x.png" alt="Logo"></div>
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <button class="nav-link active" id="nav-item1" type="button"
+              class=" dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"> Courses </button>
+            <div class="dropdown-menu"  routerLinkActive="active">
+              <a class="dropdown-item" routerLink="/ui-ux-program-details">Ui/UX Program Details</a>
+              <a class="dropdown-item" routerLink="/design-tool">Design-Tool-Course</a>
+              <a class="dropdown-item" routerLink="/design-workshop">Design-Tool-Wrokshop</a>
+              <a class="dropdown-item" routerLink="/ui-design">UI-Design</a>
+              <a class="dropdown-item" routerLink="/ui-design-program">UI-Desgin-Program</a>
+            </div>
+          </li>
+
+          <li class="nav-item active">
+            <button class="nav-link active" id="nav-item1" routerLink="/career" type="button" class=""> Sucsess
+              Stories</button>
+          </li>
+
+          <li class="nav-item dropdown">
+            <button type="button" class="nav-link  active" id="nav-item1"
+              class=" dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"> Why Felix? </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" routerLink="/placement">Placement</a>
+              <a class="dropdown-item" routerLink="/about" >about</a>
+              <a class="dropdown-item" routerLink="/Joinus" >Job Guarantee</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <button class="nav-link active" id="nav-item1" routerLink="/contact-us" type="button" class="">Contact
+              Us</button>
+          </li>
+        </ul>
+        <div class="bt1">
+          <button type="button">
+            <p>Get Started</p>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+
+
+
+
+  <!-- Side nav bar -->
+<div class="offcanvas offcanvas-start" id="demo-nav">
+  <div class="offcanvas-header">
+    <h1 class="offcanvas-title">
+      <div class="logo"><img src="assets\Image\logonew@2x.png" alt="Logo" ></div>
+    </h1>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" id="close">
+
+    </button>
+    
+  </div>
+  <div class="offcanvas-body">
+
+    <div class="dropdown drop">
+      <button type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown">
+  Courses
+      </button>
+      <ul class="dropdown-menu drop-body" >
+        <li><a class="dropdown-item"  routerLink="/ui-ux-program-details" (click)="click()">UI-UX-Desgin-Program</a></li>
+        <li><a class="dropdown-item" routerLink="/design-tool" (click)="click()">Design-Tool-Course</a></li>
+        <li><a class="dropdown-item" routerLink="/design-workshop" (click)="click()">Design-Tool-Wrokshop</a></li>
+        <li><a class="dropdown-item" routerLink="/ui-design" (click)="click()">UI-Design</a></li>
+        <li><a class="dropdown-item" routerLink="/ui-design-program" (click)="click()">UI-Desgin-Program</a></li>
+      </ul>
+    </div>
+   
+    <div class="dropdown drop">
+      <button type="button" class="btn " routerLink="/career"  (click)="click()">
+        Sucsess Stories
+      </button>
+    </div>
+
+    <div class="dropdown drop">
+      <button type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown">
+        Why Felix? 
+      </button>
+      <ul class="dropdown-menu drop-body" >
+        <li><a class="dropdown-item"  routerLink="/placement" (click)="click()">Placement</a></li>
+        <li><a class="dropdown-item"  routerLink="/about" (click)="click()">About Us</a></li>
+        <li><a class="dropdown-item" routerLink="/Joinus" (click)="click()">Job Guarantee</a></li>
+      </ul>
+    </div>
+
+    <div class="dropdown drop">
+      <button type="button" class="btn " routerLink="/contact-us" (click)="click()" >
+      Contact Us
+      </button>
+    </div>
+    
+    <div class="bt1">
+      <button type="button">
+        <p>Get Started</p>
+      </button>
+    </div>
+  </div>
+  
+</div>
+
+
+
+<div class="container-fluid mt-3">
+<img src="assets\Image\logonew@2x.png" routerLink="/ui-ux-design" alt="Logo" style="width: 40%; margin: 7px;">
+  <button class="btn "  data-bs-toggle="offcanvas" data-bs-target="#demo-nav" >
+    <i class="fa fa-bars" aria-hidden="true"></i>
+  </button>
+</div>

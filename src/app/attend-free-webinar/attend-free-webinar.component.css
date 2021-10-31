@@ -1,0 +1,344 @@
+h1, h2,h3,h4,p{
+  font-family: 'Poppins', sans-serif!important;
+}
+ .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin-top: -20px;
+}
+.container-fluid{
+  display: flex;
+  box-sizing: border-box;
+}
+
+/* SECTION-15 */
+.flex-20{
+  padding: 50px 0px 50px 50px;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+  .flex-left-20 , .flex-right-20{
+    width: 100%;
+  }
+}
+.text-20{
+padding: 100px 0px 0px 50px ;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+  .flex-20 {
+    padding: 0px 15px 50px 15px;
+  }
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+  .text-20{
+    padding: 30px 20px 0px 20px ;
+  }
+  
+}
+
+.flex-20 h1{
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1c1213;
+
+}
+
+.flex-20-text  p{
+  margin: 10px 5.5px 9.9px 0;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1c1213;
+}
+.flex-20-text-p p{
+  margin: 20px 5.5px 9.9px 0;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1c1213;
+}
+
+.flex-20-img{
+  text-align:left;
+  margin-left: 40px;
+  margin-right: auto;
+}
+.flex-20-img img{
+  width: 75%;
+  position: absolute;
+  object-fit: contain;
+}
+.line{
+  width: 20%;
+  text-align: center;
+}
+.line img{
+  width: 70%;
+}
+.text-info p{
+  object-fit: contain;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.40;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+  .text-info p{
+      font-size: 14px;
+      
+  }  
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+  .line img{
+      width: 50%;
+  }
+}
+.bottom-text .row{
+  padding: 10px 0px 0px 0px;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+.flex-20-img {
+padding: 0px 0px;
+}
+}
+ .flex-20-card {
+width: 100%;
+padding: 50px 0px;
+align-self:center;
+
+}
+.card{
+  width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+padding: 21.5px 25.8px 16px 22px;
+border-radius: 10px;
+box-shadow: 0 0.5px 10px 0 rgba(237, 28, 36, 0.2);
+background-color: #fff;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px) {
+  .flex-20-card,.card{
+    width: 100%;
+  }
+
+}
+
+.card-title {
+  margin: 0 0 19px 3.8px;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 3.75;
+  letter-spacing: normal;
+  text-align:center;
+  color: #ed1c24;
+}
+.card-img{
+  text-align: center;
+}
+.card-img img{
+  width: 50%;
+}
+
+.card-text{
+  margin: 19px 7.8px 19px 11.5px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1d1d1d;
+}
+
+.card-text-2 {
+
+  margin: 19px 4.3px 29px 8px;
+  font-family: Poppins;
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #888;
+}
+.button-btttom{
+  text-align: center;
+}
+.button-btttom{
+  width: 100%;
+
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px)
+{
+  .abt button{
+    width: 100%;
+    margin-left:auto;
+margin-right: auto;
+  }
+}
+.abt .btn{
+  background-color: #ed1c24;
+  font-size: 12px;
+  padding: 5px;
+  width: 80%;
+  height: 30px;
+  margin-right: auto;
+  margin-top: 30px;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: 0 0.5px 10px 0 rgba(237, 28, 36, 0.19);;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+   .flex-20-text h1{
+    font-size:	25px;
+  }
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+  .flex-20-text  p{
+    font-size:	14px;
+  }
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+  .flex-20-text-p p{
+    font-size:	14px;
+  }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px) {
+  .flex-20-img img{
+    display: none;
+  }
+} 
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+  .text-section {
+    order: 2;
+  }
+}
+.card-sections{
+padding: 0px 0px 0px 70px;
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+  .card-sections{
+    order: 1;
+    padding: 0px 20px 0px 20px;
+  }
+}
+
+  
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) 
+and (max-device-width : 1024px){
+   .sub-41 img, .grp-1347 img, .Subtraction-40 img, .grp-1348 img , .grp-1274 img, .sub-25 img 
+   ,#grp1276, .grp-1277 img,#path1163 ,.sub-24
+ {
+ display: none;
+   }
+ 
+ }
+
+ @media only screen and (min-device-width: 1024px) 
+ and (max-device-width: 1366px) 
+ and (-webkit-min-device-pixel-ratio: 2)
+   and (orientation: portrait){
+    .card{
+      width: 70%
+    }
+    .flex-20-img img{
+      width: 85%;
+      margin-left: -0px;
+      position: absolute;
+      object-fit: contain;
+    }
+    .flex-20 {
+      padding: 0px 15px 30px 15px;
+    }
+    .card-sections{
+      padding: 50px 0px 0px 0px;
+    }
+   }

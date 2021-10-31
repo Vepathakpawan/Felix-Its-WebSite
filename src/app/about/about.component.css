@@ -1,0 +1,655 @@
+
+.container-fluid{
+  overflow: hidden;
+  box-sizing: border-box;
+  object-fit: contain;
+}
+
+/* SECTION-1-CSS */
+.aboutus{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    padding: 0px 50px 50px 50px;
+  }
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 768px) 
+  and (max-device-width : 1024px){
+    .aboutus{
+        width: 100%;
+        height: auto;
+        padding: 0px 20px 0px 20px;
+          }
+  }
+.abt-img-1 img{
+width: 100px;
+margin-top: 110px;
+margin-left: 380px;
+position: absolute;
+}
+.about-img{
+  padding: 50px 0px 0px 0px;
+}
+    .about-img img{
+     width: 90%;
+     position:relative;
+     margin-left: 30px;
+    }
+    .top{
+      text-align: center;
+      color: white;
+    }
+
+    .abt-img-2 img{
+      width: 10%;
+      position: absolute;
+      left: 0;
+      margin-top: 200px;
+    }
+    /* Top left text */
+    .top-left {
+      position: absolute; /* Position the background text */
+      width: 100%;
+      top: 0;
+      padding: 60px 20px 0px 0px;
+      text-align: left;
+    }
+    @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 768px) 
+    and (max-device-width : 1024px){
+      .top-left {
+        padding: 30px 40px 0px 0px;
+      } 
+    }
+    @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 768px) 
+    and (max-device-width : 1024px){
+    .about-img{
+      padding: 0px 0px 0px 0px;
+    }
+  }
+   .top-left h1{
+     width: 200px;
+     text-align: center;
+     font-family: Poppins;
+     height: 50px;
+     background-color: rgba(242, 62, 54, 0.29);
+     font-size: 35px;
+     padding:5px;
+     font-weight: 500;
+     font-stretch: normal;
+     font-style: normal;
+     line-height: 1.17;
+     letter-spacing: normal;
+     color: #000000;
+   }
+   @media only screen 
+   and (min-device-width : 320px) 
+   and (max-device-width : 768px) 
+   and (max-device-width : 1024px){
+    .top-left h1{
+      height: 40px;
+      width: 150px;
+    }
+   }
+   .about img{
+  position: relative;
+    width:700px;
+   height:auto;
+   padding: 10px;
+   margin-top: -70px;
+
+  }
+   .about{
+    width: 100%;
+    height: auto;
+  position: relative;
+  padding: 0px 30px 0px 50px;
+   }
+   @media only screen 
+   and (min-device-width : 320px) 
+   and (max-device-width : 768px) 
+   and (max-device-width : 1024px){
+    .about{
+      width: 100%;
+      height: 470px;
+    position: relative;
+    padding: 0px 20px 0px 20px;
+     }
+   }
+  .about  h4{
+  color: blue;
+  font-size: 17px;
+  font-family: Poppins;
+    font-weight: 500;
+    padding-top: 20px ;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  
+  .top-left a{
+    text-decoration: none;
+  }
+
+  .abt .btn{
+    background-color: #ed1c24;
+    font-size: 17px;
+    width: 200px;
+    padding: 7px;
+    margin-top: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+  }
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 768px) 
+  and (max-device-width : 1024px){
+    .abt .btn,#text p{
+      font-size: 14px;
+    }
+  }
+  
+   .top-left p{
+    font-family: Poppins;
+    width: 450px;
+    height: auto;
+    font-size: 17px;
+    font-weight: 350;
+    padding-top: 20px ;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #191919;
+  
+   }
+   
+/* SECTION-2 */
+
+  .rectangle{
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+    padding: 30px 20px 30px 20px;
+    box-sizing: border-box;
+    background-color: #fff2f2;
+  
+  }
+   .text-display{
+     position: relative;
+     padding: 0px 0px 0px 20px;
+     
+   }
+   @media only screen 
+   and (min-device-width : 320px) 
+   and (max-device-width : 768px) 
+   and (max-device-width : 1024px){
+    .text-display{
+      position: relative;
+      padding: 50px 20px 0px 20px;
+      
+    }
+   }
+  .text-display h1{
+    font-size: 30px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-family: Poppins;
+    font-style: normal;
+    text-align: center;
+    line-height: 1.50;
+    letter-spacing: normal;
+    color: #ed1c24;
+    height: auto;
+  }
+  
+  .text-display img{
+    width: 80px;
+    position: absolute;
+    padding-top:20px; 
+   margin-left: 5%;
+  
+  }
+  
+  .line{
+    width: 46%;
+    height: 1px;
+    position: relative;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-right: auto;
+    background-color: #ed1c24;
+  }
+  #pencil img{
+    width: 45px;
+    position: static;
+    margin-left: 48%;
+    margin-top: -77px;
+    padding:0px 4.9px 4.3px 2.6px;
+  }
+  .text1 p{
+    font-family: Poppins;
+  font-size: 17px;
+  height: auto;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    font-weight: 350;
+    line-height: 1.50;
+    letter-spacing: normal;
+    color: #1d1415;
+    height: auto;
+  }
+  
+  .text2 p{
+    font-size: 17px;    
+    font-family: Poppins;
+    width: 100%;
+    height: auto;
+      font-stretch: normal;
+      font-style: normal;
+      text-align: center;
+      font-weight: 350;
+      line-height: 1.50;
+      margin-top: 30px;
+      letter-spacing: normal;
+      color: #1d1415;
+      height: auto;
+  
+  }
+  
+  .text2 span img{
+    width: 10%;
+  float:right;
+    position: absolute;
+    top: 150px;
+right: 0;
+    margin-right: -70px;
+  }
+    
+  /* SECTION-3 */
+  .section3 {
+      height: auto;
+      width: 100%;
+      overflow: hidden;
+      box-sizing: border-box;
+      padding: 30px 0px 0px 0px;
+    }
+  
+  
+    .vision {
+          overflow: hidden;
+      box-sizing: border-box;
+      width: 100%;
+      padding: 40px 0px 0px 0px;
+    height: 50%; /* Should be removed. Only for demonstration */
+    }
+  
+  .vision   #grp386{
+  width: 80px;
+  margin-top: 50px;
+  float: left;
+  margin-left: -30px;
+  position:absolute;
+  } 
+  .vision .col{
+    text-align: center;
+  }
+    .vision .col img{
+      width: 70%;
+   padding: 30px 0px 0px 0px;
+margin-left: auto;
+margin-right: auto;
+    }
+    @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 768px) 
+    and (max-device-width : 1024px){
+      .vision .col img{
+        width: 80%;
+        padding: 0px 20px 0px 20px;
+      }
+    }
+    .text3 {
+      box-sizing: border-box;
+      overflow: hidden;
+      padding:30px 20px 0px 20px;
+    }
+    @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 768px) 
+    and (max-device-width : 1024px){
+      .text3 {
+        box-sizing: border-box;
+        overflow: hidden;
+        padding:0px 20px 0px 20px;
+      }
+    }
+    .text3 h1{
+      font-size: 30px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      text-align: left;
+      font-family: Poppins;
+      line-height: 1.50;
+      letter-spacing: normal;
+      margin-top: 100px;
+      height: auto;
+    }
+    @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 768px) 
+    and (max-device-width : 1024px){
+      .text3 h1{
+        margin-top: 20px;
+      }
+    }
+    .text3 p{ 
+      font-size: 17px;
+      height: auto;
+      font-family: Poppins;
+      width:500px;
+      position: relative;
+        font-stretch: normal;
+        font-style: normal;
+        text-align: left;
+        font-weight: 350;
+        line-height: 1.50;
+        letter-spacing: normal;
+        color: #1d1415;
+        height: auto;
+    }
+
+    .section-4{
+      padding: 0px 0px 100px 0px;
+    }
+    @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 768px) 
+    and (max-device-width : 1024px){
+      .section-4{
+        padding: 0px 0px 30px 0px;
+      }
+    }
+    .text4{
+      padding: 150px 20px 30px 100px ;
+    }
+    @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 768px) 
+    and (max-device-width : 1024px){
+      .text4{
+        padding: 20px 20px 30px 20px ;
+      } 
+    }
+    .text4 h1{
+      font-size: 30px;
+      font-weight: 500;
+      font-family: Poppins;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.50;
+      letter-spacing: normal;
+      height: auto;
+    }
+    .text4 p{
+      font-size: 17px;
+      height: auto;   
+       font-family: Poppins;
+      width: 500px;
+        font-stretch: normal;
+        font-style: normal;
+        font-weight: 350;
+        line-height: 1.50;
+        letter-spacing: normal;
+        color: #1d1415;
+        height: auto;
+    }
+
+    @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 768px) 
+    and (max-device-width : 1024px){
+      .mission{
+        padding: 20px 0px 0px 0px;
+      }
+    }
+  .mission{
+    height:auto;
+    padding-bottom: 40px;
+  }
+    .mission .col{
+  top: 10%;
+    text-align: center;
+    }
+    .mission .col img{
+      width: 70%;
+      position: relative;
+    }
+    
+    .mission .container img{
+      width: 100px;
+      float: right;
+      position: absolute;
+      right: 0;
+      margin-right: 10px;
+      margin-top: 0px;
+    }
+  
+    .text3 img{
+      width: 90px;
+      float: right;
+      position:relative;
+      margin-right: -30px;
+    }
+
+.flex{
+  width: 100%;
+  text-align: center;
+    height: auto;
+    padding-top: 20px;
+  }
+  
+  .sec-4 img{
+    width: 100px;
+    margin-left: -60px;
+  position:absolute;
+  margin-top: 250px;
+  }
+  
+  .flex img{
+    width: 100px;
+    float: left;
+    margin-left: -30px;
+  }
+  .flex h1{
+    font-family: Poppins;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 768px) 
+  and (max-device-width : 1024px){
+    .flex h1,.text4 h1,.text3 h1, .text-display h1,   .top-left h1{
+      font-size: 25px;
+
+    }
+  }
+  .felix-its{
+    box-sizing: border-box; 
+  }
+  .felix-its img{
+  width: 70%;
+  box-shadow:0 0px 20px 5px rgba(242, 62, 54, 0.16);
+  image-rendering: auto;
+  margin:20px 0px 20px 0px;
+  margin-right: 60px;
+  float: right;
+    }
+    @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 768px) 
+    and (max-device-width : 1024px){
+      .felix-its img{
+        width: 100%;
+          margin-right:0px;
+      }
+    }
+    @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 768px) 
+    and (max-device-width : 1024px){
+      .sec-4{
+        order: 2;
+      }
+    }
+/* SECTION-5 */
+
+
+.section5 {
+  padding: 20px 30px 50px 30px;
+      box-sizing: border-box;
+      overflow: hidden;
+    }
+    .section5{
+      background-color: #fff2f2;
+    }
+  
+    .text5{
+      box-sizing: border-box;
+    
+    }
+    .text5 p{
+      width: 100%;
+      font-family: Poppins;
+      height: auto;
+      font-size:  17px;
+      font-weight: 200;
+      width: 550px;
+      position: relative;
+      font-stretch: normal;
+      font-style: normal;
+  padding-top: 20px;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #191919;
+    }
+    @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 768px) 
+    and (max-device-width : 1024px){
+      .text5 p,  .text4 p,.text3 p,.text2 p,  .text1 p,   .top-left p{
+        font-size: 14px;
+        width: auto;
+      }
+    }
+
+    .card-section {
+      padding: 50px 0px 0px 0px;
+    }
+  .card1 img{
+      width: 100px;
+      float: right;
+      position: absolute;
+      right: 0;
+      padding-top: 30px;
+      margin-right: -40px;
+    }
+  
+    .cardimg2 img{
+      width: 100px;
+      margin-top: -170px;
+      position: relative;
+      margin-left: -20px;
+    } 
+  
+    @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 768px) 
+    and (max-device-width : 1024px){
+      .cardimg2 img,  .card1 img,.flex img,  .text3 img,   .mission .container img,.sec-4 img ,#grp386,.text2 span img,
+      #pencil img,  .line,  .text-display img,.about img,.abt-img-1 img,.abt-img-2 img{
+        display: none;
+      }
+    }
+
+    @media only screen and (min-device-width: 1024px) 
+    and (max-device-width: 1366px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: portrait){
+      
+          .cardimg2 img,  .card1 img,.flex img,  .text3 img,   .mission .container img,.sec-4 img ,#grp386,.text2 span img,
+          #pencil img,  .line,  .text-display img,.about img,.abt-img-1 img,.abt-img-2 img{
+            display: none;
+          }
+          .aboutus{
+            width: 100%;
+            height: auto;
+            box-sizing: border-box;
+            overflow: hidden;
+            display: block;
+            margin-top: 10px;
+            padding: 70px 50px 100px 50px;
+          }
+          .section5 {
+            padding: 20px 100px 50px 0px;
+                box-sizing: border-box;
+                overflow: hidden;
+              }
+              .text5 p{
+                width: 100%;
+                font-family: Poppins;
+                font-size:  17px;
+                font-weight: 200;
+                width: 500px;
+              }       
+              .felix-its img{
+                width: 80%;
+                box-shadow:0 0px 20px 5px rgba(242, 62, 54, 0.16);
+                image-rendering: auto;
+                margin:30px 0px 20px 0px;
+                margin-right: 60px;
+                float: right;
+                  }
+                  .top-left p{
+                    width: 440px;
+                    height: auto;
+                    font-family: Poppins;
+                    font-size: 17px;
+                    font-weight: 350;
+                    padding-top: 20px ;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #191919;
+                }
+                .about-img{
+                  padding: 50px 0px 0px 0px;
+                }
+              }

@@ -1,0 +1,236 @@
+h1, h2,h3,h4,p{
+  font-family: 'Poppins', sans-serif!important;
+}
+ .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-top: -20px;
+  }
+  
+  .img-container{
+  margin-left: auto;
+  display: flex;
+  margin-right: auto;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+  .img-container img{
+  width: 230px;
+  padding: 10px;
+  }
+  
+  .card-display{
+  object-fit: contain;
+  padding: 20px 50px 50px 50px;
+  margin: 0px 0px 20px 0px;
+  background-color: #fff2f2;
+  }
+
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 768px) 
+  and (max-device-width : 1024px){
+    .card-display{
+        object-fit: contain;
+        padding: 40px 50px 50px 20px;
+        margin: 0px 0px 10px 0px;
+        background-color: #fff2f2;
+        }
+      
+  }
+  
+  .grp-1348{
+  position: absolute;
+  float: left;
+  }
+  
+  .grp-1348 img{
+  margin-left: -130px;
+  width: 150px;
+  }
+  
+  
+  
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 768px) 
+  and (max-device-width : 1024px){
+  .grp-1348 img 
+  {
+  display: none;
+    }
+  
+  }
+  
+  .card-box {
+    padding:50px 50px 0px 50px;
+    display: block;
+    margin-top: 50px;
+    
+    }
+    @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 768px) 
+    and (max-device-width : 1024px){
+          
+  .card-box {
+  margin-left: auto;
+  margin-right: auto;
+    
+    }
+    }
+    .cardbox h1{ 
+    font-size: 25px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ed1c24;
+  
+   }
+    
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 768px) 
+  and (max-device-width : 1024px){
+    .cardbox h1{
+      font-size: 20px;
+     } 
+  }
+    .img-container{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-right: auto;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    .img-container img{
+    width: 20%;
+    padding: 10px;
+    }
+    @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 768px) 
+  and (max-device-width : 1024px){
+    .img-container img{
+        width: 100%;
+        margin-left: 20px;
+        margin-right: auto;
+        }
+  }
+    .Subtraction-40 img{ 
+    width: 30px;
+    }
+    .grp-1348 img{
+    width: 7%;
+    position: absolute;
+    float: left;
+    margin-left: -50px;
+    }
+    .grp-1347{
+    position: relative;
+    float: right;
+    }
+    .grp-1347 img{
+    width: 100px;
+    margin-right: -100px;
+    position: absolute;
+    margin-top:-100px;
+    }
+    
+    .sub-41{
+    text-align: right;
+    position: absolute;
+    }
+    .sub-41 img{
+    width: 30px;
+    margin-right: 150px;
+    margin-top: -50px;
+    }
+    @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 768px) 
+    and (max-device-width : 1024px){
+       .sub-41 img, .grp-1347 img, .Subtraction-40 img, .grp-1348 img , .grp-1274 img, .sub-25 img 
+       ,#grp1276, .grp-1277 img,#path1163 ,.sub-24, .card-display
+     {
+     display: none;
+       }
+     
+     }
+
+
+     /* responsive view */
+     .card-img img{
+       width: 120%;
+     }
+     .col-sm-6 {
+       display: block;
+       object-fit: contain;
+     }
+     .card-img{
+       padding: 20px 0px 0px 0px;
+     }
+    .card-carousel{
+      background-color:  #FFF2F2 ;
+      padding: 20px 0px 10px 0px;
+    }
+    .card-carousel h1{
+      font-size: 20px;
+      font-weight: 400;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ed1c24;
+    }
+    .carousel-indicators li {
+      border-radius: 50%;
+      width: 12px;
+      height: 12px;
+      color: #fff2f2;
+      margin: 5px;
+      background-color: #ed1c24 ;
+    }
+    .carousel-control-next span i{
+      color: red;
+  
+    }
+    .carousel-control-prev span i{
+      color: red;
+    }
+    .carousel{
+      padding-bottom: 50px;
+    } 
+    .carousel-indicators{
+      left: 20px;
+    }
+    @media only screen 
+  
+    and (min-device-width : 768px) 
+  {
+      .card-carousel{
+        display: none;
+      }
+    }
+
+    
+@media only screen and (min-device-width: 1024px) 
+and (max-device-width: 1366px) 
+
+and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait){
+    .card-carousel,.sub-41 img, .grp-1347 img, .Subtraction-40 img, .grp-1348 img , .grp-1274 img, .sub-25 img 
+    ,#grp1276, .grp-1277 img,#path1163 ,.sub-24,   .grp-1348 img {
+      display: none;
+    }
+  }
+ 
+  

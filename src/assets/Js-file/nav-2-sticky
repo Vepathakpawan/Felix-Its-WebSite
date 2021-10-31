@@ -1,0 +1,17 @@
+
+// document.addEventListener("DOMContentLoaded-nav", function(){
+//     window.addEventListener('scroll', function() {
+//         if (window.scrollY > 2000) {
+//           document.getElementById('navbar_top-2').classList.add('fixed-top');
+  
+//           navbar_height = document.querySelector('.navbar').offsetHeight;
+//           document.getElementById('navbar_top-2').style.paddingTop = navbar_height + 'px';
+//         } else {
+//           document.getElementById('navbar_top-2').classList.remove('fixed-top');
+
+//           document.getElementById('navbar_top-2').style.paddingTop = '50';
+//         } 
+          
+//     });
+  
+//   }); 

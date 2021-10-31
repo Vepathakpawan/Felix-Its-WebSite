@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0;  font-family: Poppins!important; }
+.myCustomModalClass .modal-dialog{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 100px;
+    width: 100%;
+    margin-bottom: 100px;
+}
