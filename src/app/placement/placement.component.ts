@@ -11,6 +11,7 @@ export class PlacementComponent implements OnInit {
 
   showMe:boolean=false
  Hide:boolean=false
+ 
   ngOnInit(): void {
     // throw new Error('Method not implemented.');
   }

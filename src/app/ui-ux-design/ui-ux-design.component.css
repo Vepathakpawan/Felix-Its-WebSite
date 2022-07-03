@@ -1066,6 +1066,9 @@ background-color: #fff;
   }
 .navbar-nav{
     margin: 0px 20px 10px 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
    .nav-item{
     margin: 0px 20px 10px  10px;
